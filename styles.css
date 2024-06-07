@@ -5,6 +5,11 @@ body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+.flex {
+    display: flex;
+    justify-content: center;
+}
+
 .top,
 .footer {
     background-color: #1f2937;
@@ -15,10 +20,15 @@ body {
     flex: 1;
 }
 
+.dark-blue {
+    color: #1f2937;
+}
+
 .white, 
 a,
 button {
-    color: #E5E7EB
+    color: #E5E7EB;
+    padding: 10px 20px;
 }
 
 button {
@@ -26,12 +36,8 @@ button {
     font-size: 16px;
     font-weight: 700;
 }
-/* CSS for header in top of the website */
-.top {
-    display: flex;
-    justify-content: center;
-}
 
+/* CSS for header in top of the website */
 .container {
     width: 900px;
 }
@@ -43,14 +49,12 @@ button {
 }
 
 .header {
-    display: flex;
     justify-content: space-between;
     align-items: center;
     margin-top: 20px;
 }
 
 ul {
-    display: flex;
     padding: 0px;
     margin: 0px;
     gap: 16px;
@@ -65,15 +69,12 @@ a {
 }
 
 .intro {
-    display: flex;
     gap: 10px;
     padding: 50px 0px;
     justify-content: space-between;
 }
 
 .img {
-    display: flex;
-    justify-content: center;
     align-items: center;
     background-color: #8b8b8bce;
     height: 200px;
@@ -84,7 +85,11 @@ a {
 }
 
 .btn-1 {
-    padding: 10px 20px;
     background-color: #3882f6;
     border: 0;
+}
+
+/* This CSS affects content part of landing page, specifically content-top and content-btm */
+.content-top {
+    text-align: center;
 }
