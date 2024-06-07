@@ -4,7 +4,8 @@ body {
     height: 100px;
 }
 div {
-    flex: 1;
+    flex: 1 1 0;
+    height: auto;
 }
 .top,
 .footer {
