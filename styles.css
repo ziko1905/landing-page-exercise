@@ -143,7 +143,7 @@ a {
     box-sizing: border-box;
     align-items: center;
     justify-content: space-between;
-    margin: 30px auto;
+    margin: 60px auto;
     background-color: #3882f6;
     padding: 20px 150px;
     width: 1000px;
@@ -168,4 +168,11 @@ a {
     background-color: #8b8b8b00;
     border-color: #E5E7EB;
     border-style: solid;
+}
+
+/* This is footer section */
+.footer {
+    padding: 30px;
+    text-align: center;
+    font-size: 16px;
 }
