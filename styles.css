@@ -17,6 +17,7 @@ body {
 
 .content-btm {
     background-color: #E5E7EB;
+    justify-content: center;
     flex: 1;
 }
 
@@ -28,13 +29,13 @@ body {
 a,
 button {
     color: #E5E7EB;
-    padding: 10px 20px;
 }
 
 button {
     border-radius: 8px;
     font-size: 16px;
     font-weight: 700;
+    padding: 10px 20px;
 }
 
 /* CSS for header in top of the website */
@@ -57,7 +58,7 @@ button {
 ul {
     padding: 0px;
     margin: 0px;
-    gap: 16px;
+    gap: 20px;
 }
 
 a {
@@ -66,6 +67,11 @@ a {
 
 .logo {
     margin: 0px;
+}
+
+#h {
+    padding-left: 0px;
+    margin-left: 0px;
 }
 
 .intro {
@@ -92,4 +98,74 @@ a {
 /* This CSS affects content part of landing page, specifically content-top and content-btm */
 .content-top {
     text-align: center;
+    padding-bottom: 30px;
+}
+
+.content-top h2 {
+    margin: 30px;
+}
+
+.images {
+    gap: 60px;
+}
+
+ .image-des {
+    width: 150px;
+    height: 150px;
+    border: 4px #3882f6 solid;
+    border-radius: 12px;
+ }
+
+ .images div {
+    width: 150px;
+    color: #8b8b8bce;
+ }
+
+/* From here is the CSS for bottom content */
+.quote {
+    flex-direction: column;
+    width: 700px;
+    padding: 60px;
+}
+
+.quote p {
+    font-size: 24px;
+    font-style: italic;
+    margin: 0;
+}
+.quote strong {
+    font-size: 18px;
+    align-self: flex-end;
+}
+
+/* CSS after this comment is for call to action section of the website  */
+.action-div {
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: space-between;
+    margin: 30px auto;
+    background-color: #3882f6;
+    padding: 20px 150px;
+    width: 1000px;
+    height: 120px;
+    border-radius: 20px;
+}
+
+.action-div .text {
+    flex-direction: column;
+    gap: 10px;
+}
+
+.action-div .text *{
+    margin: 0px;
+}
+
+.action-div .text strong{
+    font-size: 20px;
+}
+
+.action-div button {
+    background-color: #8b8b8b00;
+    border-color: #E5E7EB;
+    border-style: solid;
 }
