@@ -1,18 +1,32 @@
 body {
     display: flex;
     flex-direction: column;
-    height: 100px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-div {
-    flex: 1 1 0;
-    height: auto;
-}
+
 .top,
 .footer {
-    flex: 1;
     background-color: #1f2937;
 }
+
 .content-btm {
     background-color: #E5E7EB;
     flex: 1;
+}
+
+/* CSS for header in top of the website */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul {
+    padding: 0px;
+    margin: 0px;
+}
+
+a {
+    text-decoration: none;
+    color: #E5E7EB;
 }
