@@ -1,3 +1,4 @@
+
 body {
     display: flex;
     flex-direction: column;
@@ -14,19 +15,76 @@ body {
     flex: 1;
 }
 
+.white, 
+a,
+button {
+    color: #E5E7EB
+}
+
+button {
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 700;
+}
 /* CSS for header in top of the website */
+.top {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    width: 900px;
+}
+
+.top .container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
 .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-top: 20px;
 }
 
 ul {
+    display: flex;
     padding: 0px;
     margin: 0px;
+    gap: 16px;
 }
 
 a {
     text-decoration: none;
-    color: #E5E7EB;
+}
+
+.logo {
+    margin: 0px;
+}
+
+.intro {
+    display: flex;
+    gap: 10px;
+    padding: 50px 0px;
+    justify-content: space-between;
+}
+
+.img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #8b8b8bce;
+    height: 200px;
+    width: 400px;
+}
+.left {
+    width: 400px;
+}
+
+.btn-1 {
+    padding: 10px 20px;
+    background-color: #3882f6;
+    border: 0;
 }
